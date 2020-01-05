@@ -1,26 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+
+    {% assign res = page.resources %}
+    {% if res %}
+    {% include {{res}} %}
+    {% endif %}
 
     <!-- RSS feed -->
     {% feed_meta %}
 
     <!-- SEO -->
     {% seo %}
+</head>
 
-    <!-- Analytics tracking for production -->
-    {% if jekyll.environment == "production" %}
-      <script src="my-analytics-script.js"></script>
-    {% endif %}
-  </head>
-  <body>
+<body>
+    <h1>{{ site.title }}</h1>
+
     <!-- Navigation -->
     {% include navigation.html %}
 
+
     <!-- Content -->
     {{ content }}
-  </body>
+</body>
+
 </html>
