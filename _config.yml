@@ -1,7 +1,5 @@
 ### Build settings ###
 
-# Plugins in the Gemfile should be repeated here for Github Pages to use them.
-# Otherwise your content which depends on the plugin will cause a build to a fail.
 plugins:
   - jekyll-sitemap
   - jekyll-feed
@@ -9,41 +7,10 @@ plugins:
 
 ### Site metadata ###
 
-title: Static Pages Demo
+title: CSS Frameworks Demo
 
-# Internal links must be made relative to this to this path for Github Pages compatibility. Usually
-# the name of the repo.
-baseurl: "/static-pages-demo"
-# Used if hosting on a custom domain.
+baseurl: "/css-frameworks-demo"
 url: ""
-
-### Content settings ###
-
-# Override the default with true so authors gets their own page each, rather than just being
-# listed as items on the Staff page.
-collections:
-  authors:
-    output: true
-
-# Set layouts for posts and collections and the default layout for everything else. This
-# means the layout can be removed from frontmatter of the post and collection pages.
-# You also set your own values in defaults such as author or category.
-# https://jekyllrb.com/docs/configuration/front-matter-defaults/
-defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
 
 exclude:
   - vendor/
