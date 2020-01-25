@@ -8,13 +8,25 @@ If you are just here to see how to add Bootstrap or Bulma styles to your HTML, s
 
 **Table of contents:**
 
+- [Resources](#resources)
+- [Setup on Github Pages](#setup-on-github-pages)
 - [Installation](#installation)
     - [Clone](#clone)
     - [System dependencies](#system-dependencies)
     - [Project dependencies.](#project-dependencies)
 - [Run](#run)
 
-## Github Pages
+## Resources
+
+- Bootstrap
+    - [Homepage](https://getbootstrap.com)
+    - [Get Started](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    - [W3 Schools](https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp)
+- Bulma
+    - [Homepage](https://bulma.io)
+    - [Get Started](https://bulma.io/documentation/overview/start/)
+
+## Setup on Github Pages
 
 Update the settings of the repo and enable _Github Pages_.
 
