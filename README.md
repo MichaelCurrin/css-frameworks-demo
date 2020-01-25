@@ -4,7 +4,7 @@
 [![Made with Jekyll](https://img.shields.io/badge/Made%20with-Jekyll-blue.svg)](https://jekyllrb.com)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/MichaelCurrin/css-frameworks-demo/blob/master/LICENSE)
 
-If you are just here to see how to add Bootstrap or Bulma styles to your HTML, see the [_layouts](/_layouts/) directory.
+If you are just here to see how to add Bootstrap or Bulma styles to your HTML, see the [_includes](/_includes/) directory.
 
 **Table of contents:**
 
