@@ -4,6 +4,8 @@
 [![Made with Jekyll](https://img.shields.io/badge/Made%20with-Jekyll-blue.svg)](https://jekyllrb.com)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/MichaelCurrin/css-frameworks-demo/blob/master/LICENSE)
 
+If you are just here to see how to add Bootstrap or Bulma styles to your HTML, see the [_layouts](/_layouts/) directory.
+
 **Table of contents:**
 
 - [Installation](#installation)
@@ -28,7 +30,7 @@ Then clone your repo or this one.
 
 Navigate to the repo root directory locally.
 
-You can view commands in the [Makefile](./Makefile) or continue.
+You can view commands in the [Makefile](/Makefile) or continue.
 
 ```bash
 $ make help
