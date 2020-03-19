@@ -55,10 +55,53 @@ Features (from [article](https://dev.to/sm0ke/bulma-css-a-tutorial-for-beginners
     - [Tutorial](https://www.tutorialspoint.com/bulma/index.htm) on [TutorialsPoint.com](https://www.tutorialspoint.com).
     - [Learn Bulma in 5 minutes](https://www.freecodecamp.org/news/learn-bulma-in-5-minutes-ec5188c53e83/)
     - [Bulma CSS - A tutorial for beginners](https://dev.to/sm0ke/bulma-css-a-tutorial-for-beginners-af2)
+- CDN
+    - CDN JS
+        - [cdnjs.com/libraries/bulma](https://cdnjs.com/libraries/bulma)
+        - Example: [cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css](https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css)
 
-## Setup on Github Pages
+Example of a simple Bulma page:
 
-Update the settings of the repo and enable _Github Pages_.
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Hello Bulma!</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">
+                Hello
+            </h1>
+            <p class="subtitle">
+                Subtitle
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>
+```
+
+
+## Setup remotely
+
+### Github Pages
+
+Fork this proejct.
+
+Go to the Settings of the repo.
+
+Enable _Github Pages_.
+
+Find your URL and open it in the browser.
+
 
 ## Installation
 
