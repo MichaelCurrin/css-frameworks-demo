@@ -11,7 +11,9 @@ Using a CSS framework gives you some benefits:
 - Customize components using classes which use existing CSS.
 - Get a mobile responsiveness experience easily.
 
-If you are just here to see how to add Bootstrap or Bulma styles to your HTML for a _Jekyll_ project, see the [_includes](/_includes/) directory.
+This project's doc site is built in Jekyll for presentation, but if you don't use Jekyll that's fine as you can just focus on the content you see in the tutorial and demos.
+
+If you are just here to see how to add Bootstrap or Bulma styles to your HTML, see the [\_includes](/_includes/) directory.
 
 **Table of contents:**
 
