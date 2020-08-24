@@ -40,7 +40,7 @@ Bootstrap is a commonly used CSS framework.
 
 Bulma is also popular but is said to be lighter to load and simpler to use that Bulma.
 
-Features (from [article](https://dev.to/sm0ke/bulma-css-a-tutorial-for-beginners-af2):
+Features - from [article](https://dev.to/sm0ke/bulma-css-a-tutorial-for-beginners-af2):
 
 > - Flexbox based: Makes creating grid items and vertically aligned things really easy
 > - Modular: Built with Sass. Only import the features that you'll use for your project. Bulma consists of 39 .sass files that you can import individually.
@@ -62,32 +62,33 @@ Features (from [article](https://dev.to/sm0ke/bulma-css-a-tutorial-for-beginners
 
 Example of a simple Bulma page:
 
-```html
-<!DOCTYPE html>
-<html>
+- `index.html`
+    ```html
+    <!DOCTYPE html>
+    <html>
 
-<head>
-    <meta charset="utf-8">
-    <title>Hello Bulma!</title>
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css">
-</head>
+    <head>
+        <meta charset="utf-8">
+        <title>Hello Bulma!</title>
 
-<body>
-    <section class="section">
-        <div class="container">
-            <h1 class="title">
-                Hello
-            </h1>
-            <p class="subtitle">
-                Subtitle
-            </p>
-        </div>
-    </section>
-</body>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css">
+    </head>
 
-</html>
-```
+    <body>
+        <section class="section">
+            <div class="container">
+                <h1 class="title">
+                    Hello
+                </h1>
+                <p class="subtitle">
+                    Subtitle
+                </p>
+            </div>
+        </section>
+    </body>
+
+    </html>
+    ```
 
 
 ## Setup remotely
@@ -126,7 +127,7 @@ $ make help
 Install [Jekyll](https://jekyllrb.com/) and [Bundler](https://bundler.io/) globally.
 
 ```bash
-$ gem install jekyll bundler
+$ gem install jekyll bundler --user-install
 ```
 
 ### Project dependencies.
@@ -142,6 +143,7 @@ Run this command in future to upgrade to the latest gems.
 ```bash
 $ make upgrade
 ```
+
 
 ## Run
 
