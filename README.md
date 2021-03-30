@@ -1,8 +1,8 @@
 # CSS Frameworks Demo
-> Demo of CSS components from Bootstrap and Bulma frameworks.
+> Demo of CSS components from Bootstrap and Bulma frameworks
 
-[![Made with Jekyll](https://img.shields.io/badge/Made%20with-Jekyll-blue.svg)](https://jekyllrb.com)
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/MichaelCurrin/css-frameworks-demo/blob/master/LICENSE)
+[![Made with Jekyll](https://img.shields.io/badge/jekyll-3.9-blue?logo=jekyll&logoColor=white)](https://jekyllrb.com)
+[![Llicense](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 Using a CSS framework gives you some benefits:
 
@@ -24,6 +24,8 @@ If you are just here to see how to add Bootstrap or Bulma styles to your HTML, s
     - [System dependencies](#system-dependencies)
     - [Project dependencies](#project-dependencies)
 - [Run](#run)
+- [License](#license)
+
 
 ## Resources
 
@@ -154,3 +156,8 @@ $ make serve
 Open the browser at:
 
 - http://localhost:4000/
+
+
+## License
+
+Licensed under [MIT](/LICENSE).
