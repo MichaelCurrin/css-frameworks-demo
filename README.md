@@ -1,5 +1,5 @@
-# CSS Frameworks Demo
-> Demo of CSS components from Bootstrap and Bulma frameworks
+# CSS Frameworks Jekyll Demo
+> Demo of CSS components from Bootstrap and Bulma frameworks in a Jekyll site
 
 [![Made with Jekyll](https://img.shields.io/badge/jekyll-3.9-blue?logo=jekyll&logoColor=white)](https://jekyllrb.com)
 [![Llicense](https://img.shields.io/badge/License-MIT-blue)](#license)
@@ -13,12 +13,12 @@ Using a CSS framework gives you some benefits:
 
 This project's doc site is built in Jekyll for presentation, but if you don't use Jekyll that's fine as you can just focus on the content you see in the tutorial and demos.
 
-If you are just here to see how to add Bootstrap or Bulma styles to your HTML, see the [\_includes](/_includes/) directory.
+If you are just here to see how to add Bootstrap or Bulma styles to your HTML, see the [\_includes](/_includes/) directory. That includes some content which gets loaded into the `head` HTML tag.
 
 **Table of contents:**
 
 - [Resources](#resources)
-- [Setup on Github Pages](#setup-on-github-pages)
+- [Set up on Github Pages](#setup-on-github-pages)
 - [Installation](#installation)
     - [Clone](#clone)
     - [System dependencies](#system-dependencies)
@@ -93,7 +93,7 @@ Example of a simple Bulma page:
     ```
 
 
-## Setup remotely
+## Set up remotely
 
 ### Github Pages
 
