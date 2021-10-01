@@ -1,7 +1,7 @@
 ---
 title: Bulma
 layout: default
-resources: bulma_resources.html
+resources: bulma-resources.html
 ---
 
 ## Headings
