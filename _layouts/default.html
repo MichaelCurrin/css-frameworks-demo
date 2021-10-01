@@ -3,32 +3,40 @@
 
 <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
 
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 
-    {% assign res = page.resources %}
-    {% if res %}
-        {% include {{ res }} %}
+    {% assign resources = page.resources %}
+    {% if resources %}
+        {% include {{ resources }} %}
     {% endif %}
-
-    <!-- RSS feed -->
-    {% feed_meta %}
-
-    <!-- SEO -->
-    {% seo %}
+    
+    <style>
+       .site-title {
+         font-size: 4em;
+       }
+    </style>
 </head>
 
 <body>
-    <h1>{{ site.title }}</h1>
-    
-    <!-- Navigation -->
-    {% include navigation.html %}
-    
-    <h2>{{ page.title }}</h2>
+    <header>
+        <div id="site-title">
+            {{ site.title }}
+        </div>
 
-    <!-- Content -->
-    {{ content }}
+        {% include navigation.html %}
+    </header>
+    
+    <main>
+        <h1>{{ page.title }}</h1>
+
+        {{ content }}
+    </main>
 </body>
 
 </html>
