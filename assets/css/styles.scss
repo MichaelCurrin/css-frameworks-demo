@@ -1,8 +1,15 @@
 ---
 ---
-@import "main";
 
 // There might be a better to set the spacing in each framework, like by putting a class on your body tag.
 body {
   padding: 20px;
+}
+
+.site-title {
+  font-size: 4em;
+}
+
+.current {
+    color: green;
 }
