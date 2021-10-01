@@ -1,7 +1,7 @@
 ---
 title: Bootstrap
 layout: default
-resources: bootstrap_resources.html
+resources: bootstrap-resources.html
 ---
 
 ## Dropdown
