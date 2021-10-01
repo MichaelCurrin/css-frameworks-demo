@@ -7,7 +7,7 @@
         <a href="{{ item.link | relative_url }}" 
            {% if item.link == page.url %}class="current" {% endif %}>
             {{ item.name }}
-            {% unless forloop.last %}|{% endunless %}
         </a>
+        {% unless forloop.last %}|{% endunless %}
     {% endfor %}
 </nav>
